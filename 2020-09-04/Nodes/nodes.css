@@ -1,0 +1,14 @@
+.first{
+    font-size: 20px;
+    position: relative;
+    width: 400px;
+    height: 200px;
+
+    color: red;
+    background-color: lightgreen;
+}
+.sp{
+    font-size: 200px;
+    color: blue;
+    background-color: yellow;
+}

@@ -1,0 +1,9 @@
+.first{
+    width: 500px; height: 200px;
+    border: 1px solid gray;
+
+    white-space: nowrap;
+    background-color: hsl(180, 100%, 75%);
+
+    overflow-x: auto;
+}

@@ -1,0 +1,16 @@
+div {position: relative;}
+
+.first{
+    width: 700px; height: 200px;
+    left: 50px; top: 50px;
+    background-color: red;
+}
+
+.second{
+    width: 100px; height: 300px;
+    left: 200px; top: 100px;
+    background-color: green;
+}
+.nothing{
+    width: 10px; height: 10px;
+}

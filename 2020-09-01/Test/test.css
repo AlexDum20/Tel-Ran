@@ -1,0 +1,28 @@
+*{margin: 0; padding: 0; font-family: Verdana;}
+body{width: 100vw; height: 100vh;}
+
+div {position: relative;}
+
+.test1{
+    width: 100vw; height: 10vh;
+    background-color: darkturquoise;
+}
+.test2{
+    width: 40%; height: 60vh;
+    left : 0; top : 0;
+    background-color: burlywood;
+    text-align: left;
+    padding: 2vh 1vw;
+    box-sizing: border-box;
+
+}
+.test3{
+    width: 60%; height: 60vh;
+    left : 40%; top : -60vh;
+    background-color: greenyellow;
+}
+.test4{
+    width: 100vw; height: 40vh;
+    left : 0; top : -60vh;
+    background-color: orangered;
+}

@@ -1,0 +1,11 @@
+*{margin: 0; padding: 0; font-family: Verdana;}
+body{width: 100vw; height: 100vh;}
+
+.example{
+    box-sizing: border-box;
+    width: 20vw; height: 20vh;
+    padding: 5vw;
+    border: 5vh solid blue;
+    margin: 3vh 5vh 7vh 11vh;
+    background-color: red;
+}

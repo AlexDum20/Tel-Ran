@@ -1,0 +1,30 @@
+*{margin: 0}
+body{width: 100vw; height: 100vh;}
+
+.centered{
+    left: 50%; top: 50%; transform: translate(-50%, -50%);
+}
+
+.wrap{
+    position: absolute;
+    width: 450px; height: 300px;
+    /*border: 10px solid gray;*/
+}
+
+.band{
+    position: absolute;
+    width: 450px; height: 100px;
+}
+.yellow{
+    left: 0; top: 200px;
+    background-color: yellow;
+}
+.red{
+    left: 0; top: 100px;
+    background-color: red;
+}
+
+.black{
+    left: 0; top: 0;
+    background-color: black;
+}

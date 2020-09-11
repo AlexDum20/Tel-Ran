@@ -1,0 +1,15 @@
+.sq{
+    position: relative;
+    width: 70vw; height: 25vh;
+}
+.first{
+    background-color: hsl(300, 50%, 60%);
+}
+.second{
+    background-color: hsl(100, 20%, 70%);
+    font-family: Verdana; font-size: 7vh; text-align: center; line-height: 25vh;
+    color: hsl(60, 100%, 50%)
+}
+.third{
+    background-color: hsl(210, 85%, 65%);
+}

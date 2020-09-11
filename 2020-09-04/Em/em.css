@@ -1,0 +1,10 @@
+.first{
+    position: relative;
+    width: 10em; height: 3em;
+    font-size: 5vmin;
+
+    user-select: none;
+
+    padding: 20px;
+    background-color: lightyellow;
+}

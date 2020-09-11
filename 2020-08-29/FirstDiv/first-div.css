@@ -1,0 +1,9 @@
+.sq{
+    position: absolute;
+    width: 20vw; height: 20vh;
+    left: 15vw; top: 30vh;
+    background-color: red;
+
+    font-size: 7vmin;
+    color: yellow;
+}

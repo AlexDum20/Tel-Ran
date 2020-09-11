@@ -1,0 +1,67 @@
+@font-face {
+    font-family: RobotoIt;
+    src: url("./Fonts/Roboto-Italic.ttf");
+}
+@font-face {
+    font-family: Tangerine;
+    src: url("./Fonts/Tangerine-Regular.ttf");
+}
+@font-face {
+    font-family: Alef;
+    src: url("./Fonts/Alef-Regular.ttf");
+}
+
+.cdn{
+    font-family: "Roboto", SansSerif;
+    font-size: 30px;
+}
+
+.robotoItalic{
+    font-family: RobotoIt;
+    font-size: 30px;
+}
+
+.tangerine{
+    font-family: Tangerine;
+    font-size: 50px;
+}
+
+.alef{
+    font-family: Alef;
+    font-size: 30px;
+}
+
+.material{
+    font-size: 96px;
+    color: blue;
+}
+.pythagorean{
+    font-family: "Roboto", SansSerif;
+    font-size: 30px;
+}
+
+.awesome{
+    font-size: 96px;
+    color: red;
+}
+
+pre{
+    font-family: "Roboto", SansSerif;
+    width: 400px;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px;
+    background-color: lightgoldenrodyellow;
+}
+
+blockquote{
+    font-family: "Roboto", SansSerif;
+    width: 600px;
+    font-size: 20px;
+    padding: 20px;
+    background-color: lightgray;
+}
+
+
+
+

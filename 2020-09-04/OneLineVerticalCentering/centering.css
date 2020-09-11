@@ -1,0 +1,17 @@
+*{margin: 0; padding: 0; font-family: Verdana; user-select: none;}
+body{width: 100vw; height: 100vh;}
+
+body{
+    background-color: rgb(255, 255, 211);
+}
+
+.header{
+    position: relative;
+    width: 100vw; height: 7vh;
+
+    font-size: 3vmin;
+    color: #cccccc;
+    text-align: center; line-height: 7vh;
+
+
+}

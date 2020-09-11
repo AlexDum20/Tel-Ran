@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<!--    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="fonts.css">
+</head>
+<body>
+    <p class="cdn">To be or not to be that is the question &ZHcy;</p>
+    <p class="robotoItalic">The proof of a pudding is the eating</p>
+    <p class="tangerine">The early bird &copy; catches the worm</p>
+    <p class="alef">עם ישראל חי</p>
+    <p><i class="material material-icons">restaurant_menu</i></p>
+    <p><i class="awesome fas fa-frog"></i></p>
+    <span class="pythagorean">a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup></span>
+    <br><span class="pythagorean">C<sub>2</sub>H<sub>5</sub>OH</span>
+
+    <pre>
+        module.exports.getPostBody = function(req){
+            return new Promise(function(resolved,rejected){
+                if(req.method != "POST") {
+                    rejected("POST method assumed");
+                    return;
+                }
+                const post = [];
+                req.on("data", chunk=>post.push(chunk));
+                req.on("end", ()=> resolved(Buffer.concat(post)));
+            });
+        }
+    </pre>
+
+    <blockquote>
+        We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.
+        <cite>United States Declaration of Independence</cite>
+    </blockquote>
+</body>
+</html>

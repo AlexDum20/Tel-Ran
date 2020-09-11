@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<!--    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">-->
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="fonts.css">
+</head>
+<body>
+    <p class="roboto-reg">We shall overcome!</p>
+    <p class="roboto-it">We shall live in peace!</p>
+    <p class="tangerine">We'll go hand in hand!</p>
+    <p class="alef">עם ישראל חי</p>
+    <p class="roboto-cdn">This is a Roboto font example</p>
+    <p class="smoking">Smoking room <span class="material material-icons">smoking_rooms</span></p>
+    <p class="awesome"><i class="fas fa-blind"></i></p>
+    <p class="euclidus">&alpha; + &beta; + &gamma; = 180&deg;</p>
+    <pre class="code">
+        module.exports.getPostBody = function(req){
+            return new Promise(function(resolved,rejected){
+                if(req.method != "POST") {
+                    rejected("POST method assumed");
+                    return;
+                }
+                const post = [];
+                req.on("data", chunk=>post.push(chunk));
+                req.on("end", ()=> resolved(Buffer.concat(post)));
+            });
+        }
+    </pre>
+
+    <blockquote class="quote">
+        We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.
+        <cite class="cite">United States Declaration of Independence</cite>
+    </blockquote>
+</body>
+</html>

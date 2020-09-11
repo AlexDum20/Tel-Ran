@@ -1,0 +1,82 @@
+@font-face {
+    font-family: RobotoRegular;
+    src: url("./Fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: RobotoItalic;
+    src: url("./Fonts/Roboto-Italic.ttf");
+}
+
+@font-face {
+    font-family: Alef;
+    src: url("./Fonts/Alef-Regular.ttf");
+}
+
+@font-face {
+    font-family: Tangerine;
+    src: url("./Fonts/Tangerine-Regular.ttf");
+}
+
+.roboto-reg{
+    font-family: RobotoRegular;
+    font-size: 32px;
+}
+
+.roboto-it{
+    font-family: RobotoItalic;
+    font-size: 32px;
+}
+
+.tangerine{
+    font-family: Tangerine;
+    font-size: 32px;
+}
+
+.alef{
+    font-family: Alef;
+    font-size: 32px;
+}
+
+.roboto-cdn{
+    font-family: "Indie Flower", RobotoRegular;
+    font-size: 24px;
+}
+
+.material{
+    font-size: 96px;
+    color: green;
+}
+
+.smoking{
+    width: 300px;
+    padding: 10px; border: 1px solid green; border-radius: 5px;
+    font-family: Tangerine;
+    font-size: 48px;
+    color: green;
+}
+
+.awesome{
+    font-size: 96px; color: red;
+}
+
+.euclidus{
+    font-family: Roboto;
+    font-size: 48px;
+}
+
+.code{
+    padding: 10px 0;
+    font-family: Verdana;
+    font-size: 20px;
+    background-color: lightblue;
+}
+.quote{
+    padding: 10px; border-radius: 5px; border: 1px solid gray;
+    font-family: Roboto; font-size: 20px;
+    background-color: #cccccc;
+}
+.cite{
+    font-family: Tangerine;
+    font-size: 40px;
+}

@@ -1,0 +1,22 @@
+.first{
+    position: absolute;
+    width: 30vw;
+    padding: 2vh 2vw;
+    background-color: lightblue;
+
+    text-align: justify;
+    /*text-decoration: line-through;*/
+
+    font-family: Helvetica;
+    font-size: 2.5vh;
+
+    letter-spacing: 0.2vw;
+    word-spacing: 0.5vw;
+    line-height: 1;
+}
+
+.second{
+    position: absolute;
+    width: 15vw; height: 15vw;
+    background-color: rgba(127,0,0,0.3);
+}
