@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db34697a-2746-4b5e-b98d-edd0e7cc907e" name="Default Changelist" comment="" />
+    <list default="true" id="db34697a-2746-4b5e-b98d-edd0e7cc907e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +18,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -23,6 +28,7 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1gqp8GGaLZ9ZawKDeHASwy9nKlR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,14 +37,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Program Files/nodejs/node.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_interpreter_path" value="$PROJECT_DIR$/../../../Program Files/nodejs/node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -97,12 +103,15 @@
       <workItem from="1599452832883" duration="2734000" />
       <workItem from="1599578520475" duration="26645000" />
       <workItem from="1599716611972" duration="3000" />
-      <workItem from="1599804634459" duration="12927000" />
+      <workItem from="1599804634459" duration="14129000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <confirmMoveToFailedCommit value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="267" y="19" key="#Inspections" timestamp="1599812091323">
@@ -113,30 +122,34 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="384" y="142" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1599809702133" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1599806017434">
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1599838095379">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1599806017434" />
-    <state width="1224" height="140" key="GridCell.Tab.0.bottom" timestamp="1599836869886">
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1599838095379" />
+    <state x="464" y="242" key="Github.CreateGistDialog" timestamp="1599837316911">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1224" height="140" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599836869886" />
-    <state width="1224" height="140" key="GridCell.Tab.0.center" timestamp="1599836869886">
+    <state x="464" y="242" key="Github.CreateGistDialog/0.0.1280.680@0.0.1280.680" timestamp="1599837316911" />
+    <state width="1224" height="140" key="GridCell.Tab.0.bottom" timestamp="1599837658386">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1224" height="140" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1599836869886" />
-    <state width="1224" height="140" key="GridCell.Tab.0.left" timestamp="1599836869886">
+    <state width="1224" height="140" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599837658386" />
+    <state width="1224" height="140" key="GridCell.Tab.0.center" timestamp="1599837658386">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1224" height="140" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1599836869886" />
-    <state width="1224" height="140" key="GridCell.Tab.0.right" timestamp="1599836869886">
+    <state width="1224" height="140" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1599837658386" />
+    <state width="1224" height="140" key="GridCell.Tab.0.left" timestamp="1599837658386">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1224" height="140" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1599836869886" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1599828793684">
+    <state width="1224" height="140" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1599837658386" />
+    <state width="1224" height="140" key="GridCell.Tab.0.right" timestamp="1599837658386">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1599828793684" />
+    <state width="1224" height="140" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1599837658386" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1599837526885">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1599837526885" />
     <state x="358" y="149" key="jetbrains.nodejs.interpreters-dialog" timestamp="1599806020374">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
