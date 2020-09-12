@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db34697a-2746-4b5e-b98d-edd0e7cc907e" name="Default Changelist" comment="new">
-      <change beforePath="$PROJECT_DIR$/2020-09-11/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/2020-09-11/1.js" afterDir="false" />
-    </list>
+    <list default="true" id="db34697a-2746-4b5e-b98d-edd0e7cc907e" name="Default Changelist" comment="delete answers" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,11 +55,11 @@
       <recent name="C:\Projects\WebStorm\Tel-Ran\HomeWork3" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.1.js">
+  <component name="RunManager" selected="JavaScript Debug.Airport_navigation.html">
     <configuration name="1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Tel-Ran/2020-09-11/1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="Teiangle.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Tel-Ran/2020-09-11/Triangle/Teiangle.html" useBuiltInWebServerPort="true">
+    <configuration name="Airport_navigation.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Tel-Ran/2020-09-08/Airport_navigation.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="object_methods.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Tel-Ran/2020-09-11/ObjectMethods/object_methods.html" useBuiltInWebServerPort="true">
@@ -75,11 +73,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.Airport_navigation.html" />
         <item itemvalue="Node.js.1.js" />
         <item itemvalue="JavaScript Debug.1.html" />
         <item itemvalue="Node.js.new.js" />
         <item itemvalue="JavaScript Debug.object_methods.html" />
-        <item itemvalue="JavaScript Debug.Teiangle.html" />
       </list>
     </recent_temporary>
   </component>
@@ -103,7 +101,7 @@
       <workItem from="1599452832883" duration="2734000" />
       <workItem from="1599578520475" duration="26645000" />
       <workItem from="1599716611972" duration="3000" />
-      <workItem from="1599804634459" duration="14483000" />
+      <workItem from="1599804634459" duration="14552000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1599838135534</created>
@@ -112,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599838135534</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="delete answers">
+      <created>1599838514823</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599838514823</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,7 +126,8 @@
   <component name="VcsManagerConfiguration">
     <confirmMoveToFailedCommit value="2" />
     <MESSAGE value="new" />
-    <option name="LAST_COMMIT_MESSAGE" value="new" />
+    <MESSAGE value="delete answers" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete answers" />
   </component>
   <component name="WindowStateProjectService">
     <state x="267" y="19" key="#Inspections" timestamp="1599812091323">
