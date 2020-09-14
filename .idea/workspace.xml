@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="db34697a-2746-4b5e-b98d-edd0e7cc907e" name="Default Changelist" comment="delete answers" />
+    <list default="true" id="db34697a-2746-4b5e-b98d-edd0e7cc907e" name="Default Changelist" comment="change">
+      <change afterPath="$PROJECT_DIR$/2020-09-11/HomeWork/CarAndPerson.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020-09-11/HomeWork/Rectangle/rectangle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020-09-11/HomeWork/Rectangle/rectangle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020-09-08/Airport_navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/2020-09-08/Airport_navigation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020-09-11/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/2020-09-11/1.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,8 +36,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -35,14 +60,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JS_course" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_interpreter_path" value="$PROJECT_DIR$/../../../Program Files/nodejs/node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion.SSH" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -55,33 +80,36 @@
       <recent name="C:\Projects\WebStorm\Tel-Ran\HomeWork3" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Airport_navigation.html">
-    <configuration name="1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Tel-Ran/2020-09-11/1.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.rectangle.js (1)">
     <configuration name="Airport_navigation.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Tel-Ran/2020-09-08/Airport_navigation.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="object_methods.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Tel-Ran/2020-09-11/ObjectMethods/object_methods.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2020-09-11/1.js" working-dir="$PROJECT_DIR$/2020-09-11">
       <method v="2" />
     </configuration>
-    <configuration name="new.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2020-09-11/new.js" working-dir="$PROJECT_DIR$/2020-09-11">
+    <configuration name="CarAndPerson.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2020-09-11/HomeWork/CarAndPerson.js" working-dir="$PROJECT_DIR$/2020-09-11/HomeWork">
+      <method v="2" />
+    </configuration>
+    <configuration name="rectangle.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2020-09-11/HomeWork/Rectangle/rectangle.js" working-dir="$PROJECT_DIR$/2020-09-11/HomeWork/Rectangle">
+      <method v="2" />
+    </configuration>
+    <configuration name="rectangle.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2020-09-11/Rectangle/rectangle.js" working-dir="$PROJECT_DIR$/2020-09-11/Rectangle">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.rectangle.js (1)" />
+        <item itemvalue="Node.js.CarAndPerson.js" />
+        <item itemvalue="Node.js.rectangle.js" />
         <item itemvalue="JavaScript Debug.Airport_navigation.html" />
         <item itemvalue="Node.js.1.js" />
-        <item itemvalue="JavaScript Debug.1.html" />
-        <item itemvalue="Node.js.new.js" />
-        <item itemvalue="JavaScript Debug.object_methods.html" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Alexander\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="db34697a-2746-4b5e-b98d-edd0e7cc907e" name="Default Changelist" comment="" />
@@ -101,7 +129,9 @@
       <workItem from="1599452832883" duration="2734000" />
       <workItem from="1599578520475" duration="26645000" />
       <workItem from="1599716611972" duration="3000" />
-      <workItem from="1599804634459" duration="14552000" />
+      <workItem from="1599804634459" duration="18642000" />
+      <workItem from="1599918079068" duration="4590000" />
+      <workItem from="1600001437015" duration="2108000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1599838135534</created>
@@ -117,59 +147,109 @@
       <option name="project" value="LOCAL" />
       <updated>1599838514823</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="delete answers">
+      <created>1599901623617</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599901623617</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add files">
+      <created>1599901782102</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599901782102</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add files">
+      <created>1599917165094</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599917165094</updated>
+    </task>
+    <task id="LOCAL-00006" summary="change">
+      <created>1599920363089</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599920363089</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <confirmMoveToFailedCommit value="2" />
     <MESSAGE value="new" />
     <MESSAGE value="delete answers" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete answers" />
+    <MESSAGE value="add files" />
+    <MESSAGE value="change" />
+    <option name="LAST_COMMIT_MESSAGE" value="change" />
   </component>
   <component name="WindowStateProjectService">
     <state x="267" y="19" key="#Inspections" timestamp="1599812091323">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="267" y="19" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1599812091323" />
-    <state x="384" y="142" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599809702133">
+    <state x="384" y="142" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599901908743">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="384" y="142" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1599809702133" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1599838095379">
+    <state x="384" y="142" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1599901908743" />
+    <state x="521" y="120" width="649" height="440" key="DiffContextDialog" timestamp="1599901953589">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1599838095379" />
+    <state x="521" y="120" width="649" height="440" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1599901953589" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1600006028542">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1600006028542" />
     <state x="464" y="242" key="Github.CreateGistDialog" timestamp="1599837316911">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="464" y="242" key="Github.CreateGistDialog/0.0.1280.680@0.0.1280.680" timestamp="1599837316911" />
-    <state width="1224" height="140" key="GridCell.Tab.0.bottom" timestamp="1599837658386">
+    <state x="725" y="238" key="Github.ShareDialog" timestamp="1599902802533">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1224" height="140" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599837658386" />
-    <state width="1224" height="140" key="GridCell.Tab.0.center" timestamp="1599837658386">
+    <state x="725" y="238" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1599902802533" />
+    <state width="814" height="140" key="GridCell.Tab.0.bottom" timestamp="1600105132021">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1224" height="140" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1599837658386" />
-    <state width="1224" height="140" key="GridCell.Tab.0.left" timestamp="1599837658386">
+    <state width="814" height="140" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600105132021" />
+    <state width="814" height="140" key="GridCell.Tab.0.center" timestamp="1600105132020">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1224" height="140" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1599837658386" />
-    <state width="1224" height="140" key="GridCell.Tab.0.right" timestamp="1599837658386">
+    <state width="814" height="140" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1600105132020" />
+    <state width="814" height="140" key="GridCell.Tab.0.left" timestamp="1600105132020">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1224" height="140" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1599837658386" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1599837526885">
+    <state width="814" height="140" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1600105132020" />
+    <state width="814" height="140" key="GridCell.Tab.0.right" timestamp="1600105132020">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1599837526885" />
-    <state x="438" y="73" key="Vcs.Push.Dialog.v2" timestamp="1599838259098">
+    <state width="814" height="140" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600105132020" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1599917517117">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="438" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1599838259098" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1599917517117" />
+    <state x="438" y="73" key="Vcs.Push.Dialog.v2" timestamp="1599917521739">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="438" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1599917521739" />
     <state x="358" y="149" key="jetbrains.nodejs.interpreters-dialog" timestamp="1599806020374">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
