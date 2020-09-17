@@ -1,0 +1,23 @@
+.zero>.second{
+    color: red;
+}
+
+.zero>*{
+    color: blue;
+}
+
+/*.b + .c {*/
+/*    color: red;*/
+/*}*/
+
+/*.a ~ .b {*/
+/*    color: #33aa33;*/
+/*}*/
+
+.b {
+    font-size: 30px;
+}
+
+div.b{
+    color: pink;
+}
