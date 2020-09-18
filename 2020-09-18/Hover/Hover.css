@@ -1,0 +1,17 @@
+.sq{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: rosybrown;
+}
+.sq:hover{
+    background-color: yellow;
+}
+p{
+    margin: 0; padding: 10px 10px;
+    width: 150px;
+}
+p:hover{
+    color: darkblue;
+    background-color: #555555;
+}
