@@ -1,0 +1,61 @@
+.main{
+    margin-left: 120px;
+}
+.circle{
+    position: relative;
+    border-radius: 50%;
+    background-color: #888888;
+    width: 140px;
+    height: 140px;
+    border: 1px solid white;
+}
+
+button{
+    margin: 10px 0;
+    width: 120px;
+    height: 50px;
+    background-color: rosybrown;
+    color: darkblue;
+}
+[but]{
+    width: 240px;
+    margin-left: 65px;
+}
+[but]:hover{
+    background-color: white;
+}
+[butName="red"]:hover{
+    background-color: red;
+    color: darkblue;
+    font-size: 20px;
+}
+[butName="yellow"]:hover{
+    background-color: yellow;
+    color: darkblue;
+    font-size: 20px;
+}
+[butName="green"]:hover{
+    background-color: green;
+    color: darkblue;
+    font-size: 20px;
+}
+
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+
+.one:hover{
+    background-color: red;
+}
+.two:hover{
+    background-color: yellow;
+}
+.three:hover{
+    background-color: green;
+}
