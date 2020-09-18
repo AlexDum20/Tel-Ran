@@ -1,24 +1,27 @@
-*{color: blue; margin: 0}
+*{color: blue; margin: 0; font-size: 50px; padding: 0;}
 
 .main{
     top: 100px;
     left: 300px;
-    width: 400px;
-    height:400px;
+    width: 402px;
+    height:402px;
     border: 1px solid blue;
     border-radius: 5px;
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-content : center;
 }
 .section{
     border: 1px solid blue;
     border-radius: 5px;
-    width: 25%;
-    height: 100%;
-
-}
-.row{
-    height: 25%;
-    width: 100%;
+    width: 98px;
+    height: 98px;
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.section:hover{
+    background-color: #888888;
 }
