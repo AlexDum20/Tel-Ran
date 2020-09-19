@@ -19,8 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db34697a-2746-4b5e-b98d-edd0e7cc907e" name="Default Changelist" comment="homework task done - ver.3 (add blink)">
+    <list default="true" id="db34697a-2746-4b5e-b98d-edd0e7cc907e" name="Default Changelist" comment="homework task done - ver.3 (add blink) - reformat code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020-09-15/FifteenGame/fifteenGame.css" beforeDir="false" afterPath="$PROJECT_DIR$/2020-09-15/FifteenGame/fifteenGame.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020-09-15/FifteenGame/fifteenGame.html" beforeDir="false" afterPath="$PROJECT_DIR$/2020-09-15/FifteenGame/fifteenGame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020-09-15/FifteenGame/fifteenGame.js" beforeDir="false" afterPath="$PROJECT_DIR$/2020-09-15/FifteenGame/fifteenGame.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2020-09-18/HomeWork/trafficLights.js" beforeDir="false" afterPath="$PROJECT_DIR$/2020-09-18/HomeWork/trafficLights.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,14 +70,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\WebStorm\Tel-Ran\Test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Projects\WebStorm\Tel-Ran\2020-09-15" />
       <recent name="C:\Projects\WebStorm\Tel-Ran" />
       <recent name="C:\Projects\WebStorm\Tel-Ran\Fonts" />
       <recent name="C:\Projects\WebStorm\Tel-Ran\HomeWork3" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Projects\WebStorm\Tel-Ran\Test" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.classList.html">
@@ -132,7 +135,7 @@
       <workItem from="1600171426158" duration="6375000" />
       <workItem from="1600256529590" duration="22899000" />
       <workItem from="1600397848633" duration="435000" />
-      <workItem from="1600398412146" duration="40604000" />
+      <workItem from="1600398412146" duration="46773000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1599838135534</created>
@@ -253,7 +256,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600527636429</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="homework task done - ver.3 (add blink) - optimaze code">
+      <created>1600528431926</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1600528431926</updated>
+    </task>
+    <task id="LOCAL-00019" summary="homework task done - ver.3 (add blink) - reformat code">
+      <created>1600528564510</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1600528564510</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +302,9 @@
     <MESSAGE value="homework task done - ver.2" />
     <MESSAGE value="homework task done - ver.2 (little correct)" />
     <MESSAGE value="homework task done - ver.3 (add blink)" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework task done - ver.3 (add blink)" />
+    <MESSAGE value="homework task done - ver.3 (add blink) - optimaze code" />
+    <MESSAGE value="homework task done - ver.3 (add blink) - reformat code" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework task done - ver.3 (add blink) - reformat code" />
   </component>
   <component name="WindowStateProjectService">
     <state x="267" y="19" key="#Inspections" timestamp="1599812091323">
@@ -340,10 +359,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1599917517117" />
-    <state x="438" y="73" key="Vcs.Push.Dialog.v2" timestamp="1600527640550">
+    <state x="438" y="73" key="Vcs.Push.Dialog.v2" timestamp="1600528442490">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="438" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1600527640550" />
+    <state x="438" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1600528442490" />
     <state x="663" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600362851056">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

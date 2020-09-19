@@ -1,20 +1,18 @@
 let sq = document.querySelectorAll("[divName]"),
     blink = document.querySelector("[blink]"),
     process = false,
+    colors = ['red','yellow','green'],
     clean = document.querySelector("[but]");
 
 
 document.querySelectorAll("[butName]").forEach((btn) => {
     btn.addEventListener('click', () => {
         cleaning();
-        if (btn.matches("[butName='red']")) {
-            sq[0].classList.add("red");
-        }
-        if (btn.matches("[butName='yellow']")) {
-            sq[1].classList.add("yellow");
-        }
-        if (btn.matches("[butName='green']")) {
-            sq[2].classList.add("green");
+        console.dir(btn.matches(`[butName=${colors[0]}`));
+        for (let i=0; i<3; i++ ) {
+            if (btn.matches(`[butName=${colors[i]}`)) {
+                sq[i].classList.add(colors[i]);
+            }
         }
     })
 });
