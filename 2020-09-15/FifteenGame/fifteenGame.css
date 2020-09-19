@@ -1,7 +1,7 @@
 *{color: blue; margin: 0; font-size: 50px; padding: 0;}
 
 .main{
-    top: 100px;
+    top: 50px;
     left: 300px;
     width: 402px;
     height:402px;
@@ -24,4 +24,13 @@
 
 .section:hover{
     background-color: #888888;
+}
+
+[but]{
+    position: relative;
+    width: 200px;
+    height: auto;
+    top: 60px;
+    left: 400px;
+    font-size: 30px;
 }
