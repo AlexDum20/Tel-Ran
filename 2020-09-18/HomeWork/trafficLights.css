@@ -1,7 +1,8 @@
-.main{
+.main {
     margin-left: 110px;
 }
-.circle{
+
+.circle {
     position: relative;
     border-radius: 50%;
     background-color: #888888;
@@ -10,7 +11,7 @@
     border: 1px solid white;
 }
 
-button{
+button {
     margin: 10px 0;
     width: 120px;
     height: 50px;
@@ -18,46 +19,55 @@ button{
     background-color: rosybrown;
     color: darkblue;
 }
-[but]{
+
+[but] {
     width: 240px;
     margin-left: 2px;
 }
-[but]:hover{
+
+[but]:hover {
     background-color: white;
 }
-[butName="red"]:hover{
+
+[butName="red"]:hover {
     background-color: red;
     color: darkblue;
     font-size: 20px;
 }
-[butName="yellow"]:hover{
+
+[butName="yellow"]:hover {
     background-color: yellow;
     color: darkblue;
     font-size: 20px;
 }
-[butName="green"]:hover{
+
+[butName="green"]:hover {
     background-color: green;
     color: darkblue;
     font-size: 20px;
 }
 
 
-.red{
+.red {
     background-color: red;
 }
-.yellow{
+
+.yellow {
     background-color: yellow;
 }
-.green{
+
+.green {
     background-color: green;
 }
 
-.one:hover{
+.one:hover {
     background-color: red;
 }
-.two:hover{
+
+.two:hover {
     background-color: yellow;
 }
-.three:hover{
+
+.three:hover {
     background-color: green;
 }
