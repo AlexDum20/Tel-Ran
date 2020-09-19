@@ -1,9 +1,13 @@
 // let but = document.querySelectorAll("[butName]");
 let    sq = document.querySelectorAll("[divName]"),
-    clean = document.querySelector("[but]");
+        blink = document.querySelector("[blink]"),
+        process = false,
+        clean = document.querySelector("[but]");
+
 
 document.querySelectorAll("[butName]").forEach((btn) =>{
     btn.addEventListener('click', () =>{
+        clearInterval(process);
         if(btn.matches("[butName='red']")){
             sq[0].classList.add("red");
             sq[1].classList.remove("yellow");
@@ -20,14 +24,24 @@ document.querySelectorAll("[butName]").forEach((btn) =>{
             sq[0].classList.remove("red");
         }
     })
-})
+});
 
 
 clean.addEventListener('click',function (){
     sq[0].classList.remove("red");
     sq[1].classList.remove("yellow");
     sq[2].classList.remove("green");
-})
+    clearInterval(process);
+});
+blink.addEventListener('click',function (){
+    sq[0].classList.remove("red");
+    sq[2].classList.remove("green");
+    function start_add() {
+        sq[1].classList.toggle("yellow");
+    }
+    process = setInterval(start_add, 500);
+});
+
 // but[0].addEventListener('click', function (){
 //     sq[0].classList.add("red");
 //     sq[1].classList.remove("yellow");

@@ -19,9 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db34697a-2746-4b5e-b98d-edd0e7cc907e" name="Default Changelist" comment="homework task done - ver.2">
+    <list default="true" id="db34697a-2746-4b5e-b98d-edd0e7cc907e" name="Default Changelist" comment="homework task done - ver.2 (little correct)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2020-09-18/HomeWork/trafficLights.css" beforeDir="false" afterPath="$PROJECT_DIR$/2020-09-18/HomeWork/trafficLights.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020-09-18/HomeWork/trafficLights.html" beforeDir="false" afterPath="$PROJECT_DIR$/2020-09-18/HomeWork/trafficLights.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020-09-18/HomeWork/trafficLights.js" beforeDir="false" afterPath="$PROJECT_DIR$/2020-09-18/HomeWork/trafficLights.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +134,7 @@
       <workItem from="1600171426158" duration="6375000" />
       <workItem from="1600256529590" duration="22899000" />
       <workItem from="1600397848633" duration="435000" />
-      <workItem from="1600398412146" duration="35432000" />
+      <workItem from="1600398412146" duration="39901000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1599838135534</created>
@@ -239,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600513670782</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="homework task done - ver.2 (little correct)">
+      <created>1600519993413</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1600519993413</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,7 +278,8 @@
     <MESSAGE value="game - variant 1 (work)" />
     <MESSAGE value="homework task done" />
     <MESSAGE value="homework task done - ver.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework task done - ver.2" />
+    <MESSAGE value="homework task done - ver.2 (little correct)" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework task done - ver.2 (little correct)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="267" y="19" key="#Inspections" timestamp="1599812091323">
@@ -312,14 +322,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="154" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600337367032" />
+    <state x="121" y="51" key="MergeDialog" timestamp="1600520256789">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="51" key="MergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1600520256789" />
+    <state x="280" y="102" key="MultipleFileMergeDialog" timestamp="1600520256795">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="280" y="102" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1600520256795" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1599917517117">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1599917517117" />
-    <state x="438" y="73" key="Vcs.Push.Dialog.v2" timestamp="1600454064558">
+    <state x="438" y="73" key="Vcs.Push.Dialog.v2" timestamp="1600520264284">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="438" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1600454064558" />
+    <state x="438" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1600520264284" />
     <state x="663" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600362851056">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

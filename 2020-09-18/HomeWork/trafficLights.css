@@ -20,7 +20,7 @@ button{
 }
 [but]{
     width: 240px;
-    margin-left: 65px;
+    margin-left: 2px;
 }
 [but]:hover{
     background-color: white;
