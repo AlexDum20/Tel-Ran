@@ -1,5 +1,5 @@
 .main{
-    margin-left: 120px;
+    margin-left: 110px;
 }
 .circle{
     position: relative;
@@ -14,12 +14,13 @@ button{
     margin: 10px 0;
     width: 120px;
     height: 50px;
+    border-radius: 5px;
     background-color: rosybrown;
     color: darkblue;
 }
 [but]{
     width: 240px;
-    margin-left: 2px;
+    margin-left: 65px;
 }
 [but]:hover{
     background-color: white;
@@ -39,6 +40,7 @@ button{
     color: darkblue;
     font-size: 20px;
 }
+
 
 .red{
     background-color: red;
