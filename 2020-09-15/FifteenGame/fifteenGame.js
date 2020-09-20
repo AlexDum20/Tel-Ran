@@ -21,7 +21,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (!target.innerText) {
                     target.innerText = a.innerText;
                     a.innerText = "";
-                    console.log(Math.round(15 * Math.random()));
+                    a.style.backgroundColor = "lightblue";
+                    a.style.border = "0";
+                    target.style.backgroundColor = "white";
+                    target.style.border = "1px solid blue";
+                    target.style.borderRadius = "10px";
+                    console.dir(target.classList);
+                    console.dir(a.classList);
                     if (verifyVictory()) alert("Victory!");
                 }
             }
@@ -45,18 +51,18 @@ document.addEventListener('DOMContentLoaded', () => {
     function setRandom() {
         let newArray = victory.slice();
         for (let i = 0; i <= 14; i++) {
-            function install(i) {
+            function installFor(i) {
                 let j = Math.round(15 * Math.random());
                 if (newArray[j]) {
                     cell[i].innerText = newArray[j];
                     newArray[j] = '';
                 } else {
-                    install(i);
+                    installFor(i);
                 }
             }
 
             cell[i].innerText = '';
-            install(i);
+            installFor(i);
         }
     }
 });
