@@ -8,7 +8,6 @@ let sq = document.querySelectorAll("[divName]"),
 document.querySelectorAll("[butName]").forEach((btn) => {
     btn.addEventListener('click', () => {
         cleaning();
-        console.dir(btn.matches(`[butName=${colors[0]}`));
         for (let i=0; i<3; i++ ) {
             if (btn.matches(`[butName=${colors[i]}`)) {
                 sq[i].classList.add(colors[i]);
@@ -18,9 +17,9 @@ document.querySelectorAll("[butName]").forEach((btn) => {
 });
 
 function cleaning() {
-    sq[1].classList.remove("yellow");
-    sq[0].classList.remove("red");
-    sq[2].classList.remove("green");
+    for (let i=0; i<3; i++) {
+        sq[i].classList.remove(colors[i]);
+    }
     if (process) {
         clearInterval(process);
         process = false;
