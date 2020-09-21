@@ -11,7 +11,7 @@
     width: 402px;
     height: 402px;
     border: 1px solid blue;
-    border-radius: 5px;
+    border-radius: 10px;
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -20,6 +20,7 @@
 }
 
 .section {
+    position: relative;
     border: 1px solid blue;
     border-radius: 10px;
     width: 98px;
@@ -30,7 +31,7 @@
     background-color: white;
 }
 
-.row44 {
+.empty {
     background-color: lightblue;
     border: 0;
 }
