@@ -19,9 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db34697a-2746-4b5e-b98d-edd0e7cc907e" name="Default Changelist" comment="homework task - delete ':hover'">
+    <list default="true" id="db34697a-2746-4b5e-b98d-edd0e7cc907e" name="Default Changelist" comment="homework task - optimaze code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020-09-15/FifteenGame/fifteenGame.css" beforeDir="false" afterPath="$PROJECT_DIR$/2020-09-15/FifteenGame/fifteenGame.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020-09-15/FifteenGame/fifteenGame.html" beforeDir="false" afterPath="$PROJECT_DIR$/2020-09-15/FifteenGame/fifteenGame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020-09-15/FifteenGame/fifteenGame.js" beforeDir="false" afterPath="$PROJECT_DIR$/2020-09-15/FifteenGame/fifteenGame.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020-09-18/Button/button.html" beforeDir="false" afterPath="$PROJECT_DIR$/2020-09-18/Button/button.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020-09-18/Button/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/2020-09-18/Button/button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020-09-18/HomeWork/trafficLights.css" beforeDir="false" afterPath="$PROJECT_DIR$/2020-09-18/HomeWork/trafficLights.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020-09-18/HomeWork/trafficLights.html" beforeDir="false" afterPath="$PROJECT_DIR$/2020-09-18/HomeWork/trafficLights.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2020-09-18/HomeWork/trafficLights.js" beforeDir="false" afterPath="$PROJECT_DIR$/2020-09-18/HomeWork/trafficLights.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020-09-18/Hover/Hover.css" beforeDir="false" afterPath="$PROJECT_DIR$/2020-09-18/Hover/Hover.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020-09-18/Hover/Hover.html" beforeDir="false" afterPath="$PROJECT_DIR$/2020-09-18/Hover/Hover.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,9 +87,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.classList.html">
-    <configuration name="Hover.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Tel-Ran/2020-09-18/Hover/Hover.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <configuration name="button.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Tel-Ran/2020-09-18/Button/button.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -90,16 +96,19 @@
     <configuration name="fifteenGame.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Tel-Ran/2020-09-15/FifteenGame/fifteenGame.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="fifteen.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Tel-Ran/2020-09-15/Fifteen/fifteen.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="trafficLights.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Tel-Ran/2020-09-18/HomeWork/trafficLights.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.classList.html" />
-        <item itemvalue="JavaScript Debug.button.html" />
         <item itemvalue="JavaScript Debug.trafficLights.html" />
+        <item itemvalue="JavaScript Debug.fifteen.html" />
+        <item itemvalue="JavaScript Debug.button.html" />
         <item itemvalue="JavaScript Debug.fifteenGame.html" />
-        <item itemvalue="JavaScript Debug.Hover.html" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +141,7 @@
       <workItem from="1600171426158" duration="6375000" />
       <workItem from="1600256529590" duration="22899000" />
       <workItem from="1600397848633" duration="435000" />
-      <workItem from="1600398412146" duration="52195000" />
+      <workItem from="1600398412146" duration="88196000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1599838135534</created>
@@ -302,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600574597981</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="homework task - optimaze code">
+      <created>1600574671910</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1600574671910</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,7 +355,8 @@
     <MESSAGE value="homework task done - ver.3 added cycle - optimize code" />
     <MESSAGE value="homework task done - added randomize" />
     <MESSAGE value="homework task - delete ':hover'" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework task - delete ':hover'" />
+    <MESSAGE value="homework task - optimaze code" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework task - optimaze code" />
   </component>
   <component name="WindowStateProjectService">
     <state x="267" y="19" key="#Inspections" timestamp="1599812091323">
@@ -354,10 +371,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="521" y="120" width="649" height="440" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1599901953589" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1600258527869">
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1600671009141">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1600258527869" />
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1600671009141" />
     <state x="464" y="242" key="Github.CreateGistDialog" timestamp="1599837316911">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
