@@ -24,7 +24,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     a.innerText = "";
                     a.classList.toggle("empty");
                     target.classList.toggle("empty");
-                    if (verifyVictory()) alert("Victory!");
+                    if (verifyVictory()){
+                        modalStart();
+                    }
                 }
             }
         }
@@ -34,6 +36,20 @@ document.addEventListener('DOMContentLoaded', () => {
     newGame.addEventListener('click', function () {
         setRandom();
     })
+
+    function modalStart(){
+        let modal = document.getElementById("my_modal"),
+            span = document.getElementsByClassName("close_modal_window")[0];
+            modal.style.display = "block";
+
+            span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+            setTimeout(function (){
+                modal.style.display = "none";
+            }, 10000)
+    }
 
     function verifyVictory() {
         for (let i = 0; i <= 15; i++) {

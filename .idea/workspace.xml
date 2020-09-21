@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db34697a-2746-4b5e-b98d-edd0e7cc907e" name="Default Changelist" comment="reformat code">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2020-09-15/FifteenGame/fifteenGame.css" beforeDir="false" afterPath="$PROJECT_DIR$/2020-09-15/FifteenGame/fifteenGame.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2020-09-15/FifteenGame/fifteenGame.html" beforeDir="false" afterPath="$PROJECT_DIR$/2020-09-15/FifteenGame/fifteenGame.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2020-09-15/FifteenGame/fifteenGame.js" beforeDir="false" afterPath="$PROJECT_DIR$/2020-09-15/FifteenGame/fifteenGame.js" afterDir="false" />
@@ -68,14 +69,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Projects\WebStorm\Tel-Ran\Test" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Projects\WebStorm\Tel-Ran\2020-09-15" />
       <recent name="C:\Projects\WebStorm\Tel-Ran" />
       <recent name="C:\Projects\WebStorm\Tel-Ran\Fonts" />
       <recent name="C:\Projects\WebStorm\Tel-Ran\HomeWork3" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\WebStorm\Tel-Ran\Test" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.classList.html">
