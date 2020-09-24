@@ -19,11 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db34697a-2746-4b5e-b98d-edd0e7cc907e" name="Default Changelist" comment="reformat code">
+    <list default="true" id="db34697a-2746-4b5e-b98d-edd0e7cc907e" name="Default Changelist" comment="add modal window">
+      <change afterPath="$PROJECT_DIR$/2020-09-22/HomeWork/AuthPanel/JSfiles/auth-panel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020-09-22/HomeWork/AuthPanel/JSfiles/authObj.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020-09-22/HomeWork/AuthPanel/JSfiles/fake-back.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020-09-22/HomeWork/AuthPanel/JSfiles/root.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020-09-22/HomeWork/AuthPanel/auth-panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020-09-22/HomeWork/AuthPanel/auth-panel.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-09-15/FifteenGame/fifteenGame.css" beforeDir="false" afterPath="$PROJECT_DIR$/2020-09-15/FifteenGame/fifteenGame.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020-09-15/FifteenGame/fifteenGame.html" beforeDir="false" afterPath="$PROJECT_DIR$/2020-09-15/FifteenGame/fifteenGame.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2020-09-15/FifteenGame/fifteenGame.js" beforeDir="false" afterPath="$PROJECT_DIR$/2020-09-15/FifteenGame/fifteenGame.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020-09-18/HomeWork/trafficLights.js" beforeDir="false" afterPath="$PROJECT_DIR$/2020-09-18/HomeWork/trafficLights.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +63,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JS_course" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.stylelint" value="project" />
@@ -79,17 +84,17 @@
       <recent name="C:\Projects\WebStorm\Tel-Ran\Test" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.classList.html">
-    <configuration name="button.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Tel-Ran/2020-09-18/Button/button.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.auth-panel.html">
+    <configuration name="1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Tel-Ran/2020-09-22/HomeWork/1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="classList.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Tel-Ran/2020-09-18/classList/classList.html" useBuiltInWebServerPort="true">
+    <configuration name="auth-panel.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Tel-Ran/2020-09-22/HomeWork/AuthPanel/auth-panel.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="fifteenGame.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Tel-Ran/2020-09-15/FifteenGame/fifteenGame.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="fifteen.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Tel-Ran/2020-09-15/Fifteen/fifteen.html" useBuiltInWebServerPort="true">
+    <configuration name="text-input.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Tel-Ran/2020-09-22/TextInput/text-input.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="trafficLights.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Tel-Ran/2020-09-18/HomeWork/trafficLights.html" useBuiltInWebServerPort="true">
@@ -97,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.classList.html" />
+        <item itemvalue="JavaScript Debug.auth-panel.html" />
         <item itemvalue="JavaScript Debug.trafficLights.html" />
-        <item itemvalue="JavaScript Debug.fifteen.html" />
-        <item itemvalue="JavaScript Debug.button.html" />
+        <item itemvalue="JavaScript Debug.text-input.html" />
         <item itemvalue="JavaScript Debug.fifteenGame.html" />
+        <item itemvalue="JavaScript Debug.1.html" />
       </list>
     </recent_temporary>
   </component>
@@ -135,6 +140,8 @@
       <workItem from="1600256529590" duration="22899000" />
       <workItem from="1600397848633" duration="435000" />
       <workItem from="1600398412146" duration="88478000" />
+      <workItem from="1600714574941" duration="16937000" />
+      <workItem from="1600842619787" duration="14527000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1599838135534</created>
@@ -325,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600684879984</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="add modal window">
+      <created>1600701392751</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1600701392751</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,7 +379,8 @@
     <MESSAGE value="homework task - optimaze code" />
     <MESSAGE value="add button &quot;work&quot;" />
     <MESSAGE value="reformat code" />
-    <option name="LAST_COMMIT_MESSAGE" value="reformat code" />
+    <MESSAGE value="add modal window" />
+    <option name="LAST_COMMIT_MESSAGE" value="add modal window" />
   </component>
   <component name="WindowStateProjectService">
     <state x="267" y="19" key="#Inspections" timestamp="1599812091323">
@@ -376,6 +391,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="384" y="142" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1599901908743" />
+    <state x="356" y="91" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600844430441">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="356" y="91" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1600844430441" />
     <state x="521" y="120" width="649" height="440" key="DiffContextDialog" timestamp="1599901953589">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -420,10 +439,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1599917517117" />
-    <state x="438" y="73" key="Vcs.Push.Dialog.v2" timestamp="1600540364604">
+    <state x="438" y="73" key="Vcs.Push.Dialog.v2" timestamp="1600701398065">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="438" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1600540364604" />
+    <state x="438" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1600701398065" />
     <state x="663" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600362851056">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

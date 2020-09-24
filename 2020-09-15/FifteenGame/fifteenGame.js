@@ -34,6 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     newGame.addEventListener('click', function () {
+        console.log("Hello");
         setRandom();
     })
 

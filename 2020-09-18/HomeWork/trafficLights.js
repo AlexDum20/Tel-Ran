@@ -7,6 +7,8 @@ let sq = document.querySelectorAll("[divName]"),
     colors = ['red', 'yellow', 'green'],
     clean = document.querySelector("[but]");
 
+    console.dir(blink);
+
 
 document.querySelectorAll("[butName]").forEach((btn) => {
     btn.addEventListener('click', () => {
