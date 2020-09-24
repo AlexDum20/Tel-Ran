@@ -1,0 +1,1 @@
+document.querySelector("[divName='wrap']").appendChild(authPanel());
