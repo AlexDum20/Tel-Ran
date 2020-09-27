@@ -10,6 +10,8 @@ log.classList.add("inp");
 
 let psw = document.createElement("input");
 psw.classList.add("inp");
+psw.type = "password";
+console.dir(psw);
 
 let result = document.createElement("div");
 result.classList.add('block');

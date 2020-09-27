@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="drawingBoard.css">
+    <script src="drawingBoard.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <canvas id='canvas' width="600" height="600">Ваш браузер устарел!</canvas>
+    <div id="palette"></div>
+    <div id="palette1">
+        <span class="title1">selected color:</span><br>
+        <span class="title1" style="color: red">red</span><br>
+        <input inpName = 'r' type="range" min="0" max="255" step="1">
+        <span class="title1" style="color: green">green</span><br>
+        <input inpName = 'g' type="range" min="0" max="255" step="1">
+        <span class="title1" style="color: blue">blue</span><br>
+        <input inpName = 'b' type="range" min="0" max="255" step="1">
+        <input type="color">
+        <div divName></div>
+    </div>
+    <div id="clear">Очистить изображение</div>
+</div>
+</body>
+</html>
