@@ -11,7 +11,6 @@ log.classList.add("inp");
 let psw = document.createElement("input");
 psw.classList.add("inp");
 psw.type = "password";
-console.dir(psw);
 
 let result = document.createElement("div");
 result.classList.add('block');
@@ -40,7 +39,6 @@ pend.classList.add("numButton");
 
 
 submit.addEventListener('click', function () {
-    console.log(checkAutoInfo(log.value, psw.value));
     if (checkAutoInfo(log.value, psw.value)) {
         result.classList.add('green');
         result.classList.remove('red');
