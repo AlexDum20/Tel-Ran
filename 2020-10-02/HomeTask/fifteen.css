@@ -1,0 +1,40 @@
+* {
+    color: blue;
+    margin: 0;
+    font-size: 50px;
+    padding: 0;
+}
+
+.main {
+    top: 50px;
+    left: 300px;
+    width: 400px;
+    height: 400px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: lightblue;
+}
+
+.section {
+    position: absolute;
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: white;
+}
+
+.full{
+    border: 1px solid blue;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.empty {
+    background-color: lightblue;
+}
+
