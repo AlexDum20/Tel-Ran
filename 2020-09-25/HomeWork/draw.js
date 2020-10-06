@@ -22,7 +22,6 @@ draw.classList.add("input");
 draw.type = "color";
 draw.value = "#ff0000";
 draw.placeholder = "choice of color";
-document.body.appendChild(draw);
 let wrapDiv = document.createElement("div");
 wrapDiv.classList.add("wrapdiv");
 wrapDiv.appendChild(title);
@@ -30,10 +29,12 @@ wrapDiv.appendChild(draw);
 document.body.appendChild(wrapDiv);
 
 //draw event
+
 wrap.addEventListener("mousedown", function (e) {
 
-    document.addEventListener("mousemove", mmove);
-    document.addEventListener("mouseup", mup);
+    wrap.addEventListener("mousemove", mmove);
+    wrap.addEventListener("mouseup", mup);
+    wrap.addEventListener("mouseleave",mup);
 
     function mmove(emove) {
         let target = emove.target;
@@ -43,8 +44,9 @@ wrap.addEventListener("mousedown", function (e) {
     }
 
     function mup() {
-        document.removeEventListener("mousemove", mmove);
-        document.removeEventListener("mouseup", mup);
+        wrap.removeEventListener("mousemove", mmove);
+        wrap.removeEventListener("mouseup", mup);
+        wrap.addEventListener("mouseleave",mup);
     }
 
 });
