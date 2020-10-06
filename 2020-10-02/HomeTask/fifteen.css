@@ -35,6 +35,9 @@
     border-radius: 10px;
     text-align: center;
 }
+.full:hover{
+    background-color: cyan;
+}
 
 .empty {
     background-color: transparent;
