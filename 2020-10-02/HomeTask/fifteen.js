@@ -21,7 +21,7 @@ modal.appendChild(submodal);
 // create cells
 cells = [];
 for (let i = 1; i <= 15; i++) {
-    cell = document.createElement('div');
+    let cell = document.createElement('div');
     cell.classList.add("section");
     cell.classList.add("full");
     cell.innerText = i;
