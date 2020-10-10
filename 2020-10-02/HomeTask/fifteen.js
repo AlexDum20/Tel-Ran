@@ -45,9 +45,7 @@ for (i = 0; i < 16; i++) {
     cells[i].style.left = 100 * cells[i].column + 'px';
 
     cells[i].addEventListener("click", function () {
-        // if (stopMove) return;
         if (neighbour(this)) {
-            // stopMove = true;
             moving(this);
             if(victory()){
                 modalStart();
