@@ -1,0 +1,31 @@
+div{
+    display: block;
+    width: 150px;
+}
+
+[divName="first"]{
+    position: absolute;
+    left: 20%; top: 20%;
+    border-bottom: 0.15vh solid blue;
+}
+
+[divName="third"]{
+    display: flex;
+    justify-content:space-between;
+}
+[spName="first"]{
+    width: 70%;
+    text-align: left;
+}
+[spName="second"]{
+    width: 10%;
+    text-align: right;
+    color: blue;
+}
+select{
+    width: 100%;
+}
+
+.closed{
+    display: none;
+}

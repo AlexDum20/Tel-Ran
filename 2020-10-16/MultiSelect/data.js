@@ -1,0 +1,22 @@
+export let states = [
+    "Alabama",
+    "Alaska",
+    "Arizona",
+    "Arkansas",
+    "Calfornia",
+    "Cansas",
+    "Columbia",
+    "Idaho",
+    "Michigan",
+    "Minnesota",
+    "Mississipi",
+    "Missouri",
+    "Nebraska",
+    "Nevada",
+    "New Jersey",
+    "New York",
+    "North Caroline",
+    "North Dakota",
+    "Ohio",
+    "Ontario"
+];
