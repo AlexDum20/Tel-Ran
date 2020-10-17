@@ -46,9 +46,7 @@ for (let i = 0; i < keys.length; i++) {
     })
 }
 
-
 tableCar();
-
 
 document.querySelector('.card').appendChild(tbl);
 
