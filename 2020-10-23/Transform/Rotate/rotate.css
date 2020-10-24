@@ -2,7 +2,7 @@
     /*position: relative;*/
     position: absolute;
     top: 300px; left: 300px;
-    width: 2px; height: 20px;
+    width: 200px; height: 200px;
     background-color: red;
 
     transform-origin: center 100px;
