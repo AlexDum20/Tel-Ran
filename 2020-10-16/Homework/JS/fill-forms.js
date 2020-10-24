@@ -2,9 +2,12 @@ import {course, gender} from "./listParametrs.js";
 
 let list = [gender, course];
 let table = document.createElement("table");
+let row = table.insertRow();
+let cell = row.insertCell();
 
 
-//create head
+
+//create title HEAD
 let wrap = document.createElement("div");
 let titleHead = document.createElement("span");
 titleHead.classList.add("titleHead");
@@ -17,21 +20,14 @@ firstName.classList.add("inp");
 let titleFirstName = document.createElement("span");
 titleFirstName.classList.add("title");
 titleFirstName.innerText = "First Name";
-let head1 = table.insertRow();
-let cell1 = head1.insertCell(), cell2 = head1.insertCell();
-cell1.appendChild(firstName);
-cell2.appendChild(titleFirstName)
+addRow(firstName,titleFirstName);
 
 export let lastName = document.createElement("input");
 lastName.classList.add("inp");
-
 let titleLastName = document.createElement("span");
 titleLastName.classList.add("title");
 titleLastName.innerText = "Last Name";
-let head2 = table.insertRow();
-let cell3 = head2.insertCell(), cell4 = head2.insertCell();
-cell3.appendChild(lastName);
-cell4.appendChild(titleLastName)
+addRow(lastName,titleLastName);
 
 
 //create input radiobutton and checkbox
@@ -39,11 +35,7 @@ list.forEach((item) => {
     let titleRow = document.createElement("span");
     titleRow.innerText = item[0];
     titleRow.classList.add('titleBut');
-    let _row = table.insertRow();
-    let _cell1 = _row.insertCell();
-    let _cell2 = _row.insertCell();
-    _cell1.innerText = '';
-    _cell2.appendChild(titleRow);
+    addRow('',titleRow);
     item[2].forEach((_item) => {
         let element = document.createElement("input");
         element.type = item[1];
@@ -52,12 +44,7 @@ list.forEach((item) => {
         if (item[1] == "radio") {
             element.name = item[0];
         }
-        let _row1 = table.insertRow();
-        let _cell11 = _row1.insertCell();
-        let _cell21 = _row1.insertCell();
-
-        _cell11.appendChild(element);
-        _cell21.innerText = _item;
+        addRow(element,_item);
     })
 });
 
@@ -82,4 +69,13 @@ export function authPanel() {
     wrap.appendChild(pend);
 
     return wrap
+}
+
+function addRow(...args){
+    row = table.insertRow();
+    args.forEach((arg)=>{
+        cell = row.insertCell();
+        if (typeof(arg)=='object'){cell.appendChild(arg);}
+        else {cell.innerText = arg;}
+    });
 }
