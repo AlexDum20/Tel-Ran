@@ -1,0 +1,16 @@
+body{margin: 0; width: 100vw; height: 100vh; font-family: Verdana; font-size: 5vh;}
+
+.centered{
+    position: absolute;
+    left: 300px; top: 300px;
+
+}
+
+.wrap{
+    border: 0.15vh solid black;
+    padding: 2vh 2vw;
+}
+
+.wrap:hover{
+    transform: scale(-1.0);
+}

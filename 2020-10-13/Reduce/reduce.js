@@ -14,3 +14,4 @@ let tbl = document.createElement("table");
 let row = tbl.insertRow();
 row.innerHTML = carProperties.map(property => "<td>" + property.displayed_name + "</td>")
 console.log(row.innerHTML);
+
