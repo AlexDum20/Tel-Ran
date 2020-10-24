@@ -48,7 +48,6 @@ for(let i=0; i<60; i++){
     let _top = (250 - shiftTop - Math.cos(i*0.10471975511965978)*160).toFixed(2);
     p.style.left = `${_left}px`;
     p.style.top = `${_top}px`;
-    p.style.backgroundColor = 'black';
     wrap.appendChild(p);
 }
 

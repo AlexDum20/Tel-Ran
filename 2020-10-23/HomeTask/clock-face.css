@@ -17,7 +17,6 @@ body{width: 100vw; height: 100vh;}
     transform-origin: bottom center;
 }
 
-
 .small{
     width: 1px; height: 10px;
 }
@@ -52,5 +51,5 @@ span{
 }
 p{
     position: absolute;
-    transform: translate(-50%, -50%);
+    background-color: black;
 }
