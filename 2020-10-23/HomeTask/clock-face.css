@@ -52,4 +52,6 @@ span{
 p{
     position: absolute;
     background-color: black;
+    left: 250px; top: 70px;
+    transform-origin: center 180px;
 }

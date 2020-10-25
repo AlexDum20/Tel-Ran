@@ -5,12 +5,14 @@ const sum = array.reduce((acc, elem) => acc + elem, 0);
 let angleStart = 0;
 const colorArray = [];
 
+//create colors for pie-chart
 const setColor = (n) => {
     let color = getColor();
-    !colorArray.includes(color) && n > 0 ? colorArray.push(color) && setColor(n--) : n;
+    !colorArray.includes(color) && n > 0 ? (colorArray.push(color), setColor(n--)) : n;
 }
-
 setColor(array.length);
+
+//create pie-chart
 array.forEach((item, index) => {
     let count = Math.ceil(item * 360 / (sum * 90));
     if (index <= array.length - 1 && angleStart < 270) {
@@ -30,6 +32,7 @@ array.forEach((item, index) => {
 });
 wrap.style.backgroundColor = colorArray[array.length - 1];
 
+//create randomize color
 function getColor() {
     let r = Math.floor(Math.random() * (256)),
         g = Math.floor(Math.random() * (256)),

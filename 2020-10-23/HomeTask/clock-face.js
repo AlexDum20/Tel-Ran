@@ -36,18 +36,8 @@ for(let i=1; i<=12; i++){
 for(let i=0; i<60; i++){
     p = document.createElement('p');
     let shiftLeft = 0, shiftTop = 0;
-    if (i%5==0){
-        p.classList.add('big');
-        shiftLeft = 1.5; shiftTop = 7.5;
-    } else {
-        p.classList.add('small');
-        shiftLeft = 0.5; shiftTop = 5;
-    }
+    i%5==0 ? p.classList.add('big'): p.classList.add('small');
     p.style.transform = `rotate(${i*6}deg)`;
-    let _left = (250 - shiftLeft + Math.sin(i*0.10471975511965978)*160).toFixed(2);
-    let _top = (250 - shiftTop - Math.cos(i*0.10471975511965978)*160).toFixed(2);
-    p.style.left = `${_left}px`;
-    p.style.top = `${_top}px`;
     wrap.appendChild(p);
 }
 
