@@ -41,9 +41,7 @@ list.forEach((item) => {
         element.type = item[1];
         element.value = _item;
         element.classList.add('but');
-        if (item[1] == "radio") {
-            element.name = item[0];
-        }
+        item[1] == "radio" ? element.name = item[0] : '';
         addRow(element,_item);
     })
 });
@@ -75,7 +73,6 @@ function addRow(...args){
     row = table.insertRow();
     args.forEach((arg)=>{
         cell = row.insertCell();
-        if (typeof(arg)=='object'){cell.appendChild(arg);}
-        else {cell.innerText = arg;}
+        typeof(arg)=='object' ? cell.appendChild(arg) : cell.innerText = arg;
     });
 }

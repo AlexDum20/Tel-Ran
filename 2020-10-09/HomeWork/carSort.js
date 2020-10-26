@@ -15,8 +15,7 @@ const direction = [1, 1, 1, 1];
 for (let i = 0; i < keys.length; i++) {
     let cell = headers.insertCell();
     _headers.push(keys[i]);
-    if (keys[i] == 'ac') cell.innerText = 'AC';
-    else cell.innerText = toTitlecase(keys[i]);
+    keys[i] == 'ac' ? cell.innerText = 'AC' : cell.innerText = toTitlecase(keys[i]);
 
     cell.addEventListener('click', () => {
         let i = cell.cellIndex;
@@ -38,9 +37,7 @@ for (let i = 0; i < keys.length; i++) {
 
         let table_Body = document.querySelectorAll('tr');
         table_Body.forEach((item, index) => {
-            if (index != 0) {
-                item.remove();
-            }
+            if (index != 0) {item.remove();}
         })
         tableCar();
     })
@@ -62,10 +59,7 @@ function tableCar() {
     }
 }
 
-function arrow(n){
-    if (n > 0) return down;
-    return up;
-}
+const arrow = (n) => n > 0 ? up : down;
 
 function toTitlecase(str) {
     return str.substring(0, 1).toUpperCase() + str.substring(1).toLowerCase();

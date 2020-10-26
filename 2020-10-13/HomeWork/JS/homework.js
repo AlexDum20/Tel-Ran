@@ -25,12 +25,7 @@ let closed = true;
 let upDown = document.querySelector("[spName='second']");
 upDown.innerText = "\u25bc";
 upDown.addEventListener('click', () => {
-    if (closed) {
-        sel.classList.remove('closed');
-        upDown.innerText = "\u25b2";
-    } else {
-        sel.classList.add('closed');
-        upDown.innerText = "\u25bc";
-    }
+    closed ? (sel.classList.remove('closed'),upDown.innerText = "\u25b2") :
+        (sel.classList.add('closed'),upDown.innerText = "\u25bc");
     closed = !closed;
 })

@@ -10,16 +10,15 @@ tt.forEach((item)=>{
 
 //условие ? выражение1 : выражение2
 //Set the interval of movement of the hands
-let timeout = setInterval(function (){
+setInterval(function (){
     const t = getCurrentTime();
-    // console.log(document.querySelector(".second"));
     tt.forEach((item)=> {
         let etime = document.querySelector("." + item);
-        etime.style.transform = (item == 'second') ? `rotate(${t.seconds*6}deg)` :
+        etime.style.transform = (item == 'second') ? `rotate(${t.seconds*6+t.msec*0.006}deg)` :
                 ((item == 'minute') ? `rotate(${(t.minutes+t.seconds/60)*6}deg)` :
                 `rotate(${(t.hours + t.minutes/60)*30}deg)`);
     });
-},1000);
+},50);
 
 //creating the dial numbers
 for(let i=1; i<=12; i++){
@@ -46,11 +45,13 @@ function getCurrentTime() {
     const t = new Date(),
         seconds = t.getSeconds(),
         minutes = t.getMinutes(),
-        hours = t.getHours();
+        hours = t.getHours(),
+        msec = t.getMilliseconds();
     return {
         'total': t,
         'hours': hours,
         'minutes': minutes,
-        'seconds': seconds
+        'seconds': seconds,
+        'msec': msec
     };
 }
