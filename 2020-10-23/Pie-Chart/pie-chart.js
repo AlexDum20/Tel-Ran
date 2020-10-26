@@ -3,14 +3,13 @@ let wrap = document.querySelector("[circle]");
 
 const sum = array.reduce((acc, elem) => acc + elem, 0);
 let angleStart = 0;
-const colorArray = [];
 
 //create colors for pie-chart
-const setColor = (n) => {
-    let color = getColor();
-    !colorArray.includes(color) && n > 0 ? (colorArray.push(color), setColor(n--)) : n;
+const colorArray = new Set();
+
+while (colorArray.size<array.length){
+    colorArray.add(getColor());
 }
-setColor(array.length);
 
 //create pie-chart
 array.forEach((item, index) => {
@@ -20,7 +19,7 @@ array.forEach((item, index) => {
             let div = document.createElement('div');
             div.classList.add('part');
             div.style.transform = `rotate(${angleStart}deg)`;
-            div.style.backgroundColor = colorArray[index];
+            div.style.backgroundColor = [...colorArray][index];
             wrap.appendChild(div);
             count > 1 && i < count ? angleStart += 90 &&
                 (index === array.length - 1 && i === (count - 1) ? i++ : i) :
@@ -30,7 +29,7 @@ array.forEach((item, index) => {
         }
     }
 });
-wrap.style.backgroundColor = colorArray[array.length - 1];
+wrap.style.backgroundColor = [...colorArray][array.length - 1];
 
 //create randomize color
 function getColor() {
