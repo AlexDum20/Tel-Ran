@@ -1,7 +1,7 @@
 let tbl = document.createElement("table");
 
 let keys = Object.keys(stuff[0]);
-console.log(stuff[0]);
+// console.log(stuff[0]);
 let headers = tbl.insertRow();
 for (let i = 0; i < keys.length; i++) {
     let cell = headers.insertCell();
@@ -15,9 +15,8 @@ for (let i = 0; i < stuff.length; i++) {
         let cell = row.insertCell();
 
         if (keys[j] == 'married') cell.innerText = stuff[i].married ? '+' : '-';
-        else if (keys[j] == 'married') {
-            if (stuff[i].married = "Female") cell.innerText = "F";
-            else cell.innerText = "M";
+        else if (keys[j] == 'gender') {
+           stuff[i].gender === "Female" ? cell.innerText = "F" : cell.innerText = "M";
         } else cell.innerText = stuff[i][keys[j]];       // the heart of the code !!!!
     }
 }

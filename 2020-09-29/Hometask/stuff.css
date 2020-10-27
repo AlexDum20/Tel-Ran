@@ -21,7 +21,7 @@ td{
     text-align: right;
 }
 
-td:nth-child(5){
+td:nth-child(5), td:nth-child(4){
     text-align: center;
 }
 
