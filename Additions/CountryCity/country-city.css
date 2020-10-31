@@ -1,0 +1,42 @@
+*{margin: 0; font-family: Verdana; font-size: 2vh; user-select: none}
+body{width: 100vw; height: 100vh}
+.menu{
+    position: absolute;
+    left: 0; top: 0;
+    width: 15vw;height: 100vh;
+    list-style: none;
+}
+.content{
+    position: absolute;
+    left: 15vw; top: 0;
+    width: 85vw; height: 100vh;
+    overflow: hidden;
+}
+
+.picter{
+    position: absolute;
+    width: 83vw; height: 86vh;
+    text-align: center;
+    margin: 1vw 2vh;
+}
+
+/*.city-img{*/
+/*    position: relative;*/
+/*    height: 100%;*/
+/*}*/
+
+.pic-name{
+    position: relative;
+    /*left: 15vw; top: 0;*/
+    width: 85vw; height: 9vh;
+    text-align: center;
+    font-size: 6vh;
+    font-style: normal;
+}
+
+.closed {
+    list-style: none;
+    height: 0;
+    overflow: hidden;
+}
+
