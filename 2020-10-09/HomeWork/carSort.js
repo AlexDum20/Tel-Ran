@@ -1,44 +1,39 @@
-import {garage, } from "../../Additions/RandomCar/JS/car.js";
+import {garage} from "../../Additions/RandomCar/JS/car.js";
 
 let listCar = garage(10);
 
 const up = String.fromCharCode(8593);
 const down = String.fromCharCode(8595);
-let isSort = -1;
 
 let tbl = document.createElement("table");
 
 let keys = Object.keys(listCar[0]);
 let headers = tbl.insertRow();
-const _headers = [];
-const direction = [1, 1, 1, 1];
 for (let i = 0; i < keys.length; i++) {
     let cell = headers.insertCell();
-    _headers.push(keys[i]);
     keys[i] == 'ac' ? cell.innerText = 'AC' : cell.innerText = toTitlecase(keys[i]);
+    let upDown = document.createElement('span');
+    upDown.classList.add('closed');
+    upDown.innerText = down;
+    cell.appendChild(upDown);
 
     cell.addEventListener('click', () => {
-        let i = cell.cellIndex;
-        let n = direction[i];
-        direction[i] = -n;
-        let addArrow = document.children[0].children[1].children[0].children[0].children[0].children[0];
-        if (isSort>=0){
-            addArrow.cells[isSort].innerText = addArrow.cells[isSort].innerText.slice(0, -2);
-        }
-        isSort = i;
-        addArrow.cells[i].innerText = addArrow.cells[i].innerText + ' ' + arrow(n);
+        let n = upDown.innerText == down ? 1 : -1;
+        document.querySelectorAll('span').forEach((item) =>
+            item.classList.add('closed'));
+        upDown.innerText = arrow(n);
+        upDown.classList.remove('closed');
 
         let comparator = (car1, car2) => {
-            let name1 = car1[_headers[i]];
-            let name2 = car2[_headers[i]];
+            let name1 = car1[keys[cell.cellIndex]];
+            let name2 = car2[keys[cell.cellIndex]];
             return name1 == name2 ? 0 : (name1 > name2 ? n : -n);
         }
         listCar.sort(comparator);
 
         let table_Body = document.querySelectorAll('tr');
-        table_Body.forEach((item, index) => {
-            if (index != 0) {item.remove();}
-        })
+        table_Body.forEach((item, index) =>
+            index != 0 ? item.remove() : '');
         tableCar();
     })
 }

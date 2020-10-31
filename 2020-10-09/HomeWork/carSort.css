@@ -40,3 +40,6 @@ tr:first-child, tr:last-child{
 tr:nth-child(odd){
     background-color: #eee;
 }
+.closed{
+    color: #eee;
+}
