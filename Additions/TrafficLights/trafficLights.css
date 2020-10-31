@@ -1,0 +1,76 @@
+.main{
+    margin: 0 auto;
+    width: 30vmin;
+    height: 72vmin;
+    border-radius: 10%;
+    background-color: #444444;
+}
+.circle{
+    top: 3vmin;
+    margin: 2vmin auto;
+    position: relative;
+    border-radius: 50%;
+    background-color: #888888;
+    width: 20vmin;
+    height: 20vmin;
+}
+
+button{
+    margin: 1vmin 0;
+    width: 15vmin;
+    height: 8vmin;
+    border-radius: 5%;
+    background-color: rosybrown;
+    color: darkblue;
+}
+
+[dName]{
+    display: flex;
+    width: 50vmin;
+    height: 20vmin;
+    margin: 1vmin auto;
+    background-color: #555555;
+    border-radius: 5%;
+    flex-wrap: wrap;
+    justify-content : center;
+}
+
+[but]:hover{
+    background-color: white;
+}
+[butName="red"]:hover{
+    background-color: red;
+    color: darkblue;
+    font-size: 3vmin;
+}
+[butName="yellow"]:hover{
+    background-color: yellow;
+    color: darkblue;
+    font-size: 3vmin;
+}
+[butName="green"]:hover{
+    background-color: green;
+    color: darkblue;
+    font-size: 3vmin;
+}
+
+
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+
+.one:hover{
+    background-color: red;
+}
+.two:hover{
+    background-color: yellow;
+}
+.three:hover{
+    background-color: green;
+}
