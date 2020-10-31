@@ -2,14 +2,12 @@ import {content} from "./root.js";
 
 export let makeContent = (background = '', innerText = '') => {
     content.innerHTML = '';
-    if (background && innerText) {
-        let pic = document.createElement('div');
-        pic.classList.add('picter');
-        pic.style.background = background;
-        let picName = document.createElement('div');
-        picName.innerText = innerText;
-        picName.classList.add('pic-name');
-        content.appendChild(picName);
-        content.appendChild(pic);
-    }
+    let pic = document.createElement('div');
+    pic.classList.add('picture');
+    let picName = document.createElement('div');
+    picName.classList.add('pic-name');
+    content.appendChild(picName);
+    content.appendChild(pic);
+
+    (background && innerText) ? (pic.style.background = background, picName.innerText = innerText) : 0;
 }
