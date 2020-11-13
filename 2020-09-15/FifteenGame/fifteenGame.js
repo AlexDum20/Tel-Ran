@@ -81,43 +81,5 @@ document.addEventListener('DOMContentLoaded', () => {
         cell[15].innerText = '';
         cell[15].classList.add("empty");
     }
-
-    // function myAnimation(elem,start){
-    //     let pos,  move, plusMinus, stop;
-    //     pos = 0;
-    //     if (start==0 || start==1) {
-    //         move = 'y';
-    //     } else {
-    //         move = 'x';
-    //     }
-    //     if (start==0 || start==2) {
-    //         plusMinus = '-';
-    //         stop = pos - 98;
-    //     } else {
-    //         plusMinus = '+';
-    //         stop = pos + 98;
-    //     }
-    //
-    //     const id = setInterval(frame, 10);
-    //     function frame(){
-    //         if (pos==stop){
-    //             clearInterval(id);
-    //         } else {
-    //             if (plusMinus == '+'){
-    //                 pos++;
-    //             } else {
-    //                 pos--;
-    //             }
-    //             if (move == 'y') {
-    //                 elem.style.top = pos + "px";
-    //                 console.log(pos);
-    //             } else {
-    //                 elem.style.left = pos + "px";
-    //                 console.log('Hello');
-    //             }
-    //         }
-    //     }
-    // }
-
 });
 

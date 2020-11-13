@@ -11,7 +11,7 @@ divSecond.appendChild(sel);
 
 
 let name = document.querySelector("[spName='first']");
-let row = [...document.querySelector('select').options]
+let row = [...document.querySelector('select').options];
 row.forEach((item) => {
     item.addEventListener('click', (e) => name.innerText = e.target.innerText);
 });
