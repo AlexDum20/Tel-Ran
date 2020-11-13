@@ -1,0 +1,68 @@
+*{margin: 0; font-family: Verdana; font-size: 2.2vmin; user-select: none;}
+body {width: 100vw; height: 100vh;}
+
+.card{
+    padding: 2vmin 2vmax;
+    box-shadow: 0 0.6vmin 1.2vmin 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card:hover{
+    box-shadow: 0 1.8vmin 3.6vmin 0 rgba(0,0,0,0.2);
+}
+
+.centered{
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+}
+.header{
+    position: absolute;
+    width: 100vw;height: 20vh;
+    text-align: center;
+}
+.menu{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 0;top: 20vh;
+    width: 20vw; height: 80vh;
+}
+.container{
+    position: absolute;
+    left: 20vw; top: 20vh;
+    width: 80vw; height: 80vh;
+}
+
+table{border-collapse: collapse;}
+
+input{
+    margin: 2vw;
+    background-color: gainsboro;
+}
+
+
+[inpName="input"]:hover{
+    background-color: lightyellow;
+    color: blue;
+}
+
+.cell{
+    border: 1px dotted black;
+    width: 7vw; height: 4vh;
+    text-align: center;
+    font-size: 1.5vmin;
+}
+.head{
+    font-size: 2.2vmin
+}
+
+select{
+    width: 12vw;
+    margin: 2vh;
+}
+option{
+    font-size: 2.2vmin;
+}
