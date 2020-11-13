@@ -1,0 +1,40 @@
+
+body{
+    width: 100vw; height: 100vh;
+}
+[menu]{
+    position: absolute;
+    left: 0; top: 0;
+    width: 100vw; height: 15vh;
+    display: flex;
+    justify-content: space-around;
+}
+[image]{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    left: 0; top: 15vh;
+    width: 50vw; height: 85vh;
+    overflow: hidden;
+    margin: 5vmin;
+}
+[details]{
+    position: absolute;
+    text-align: left;
+    left: 50vw; top: 15vh;
+    width: 50vw; height: 85vh;
+    font-size: 7vmin;
+    margin: 5vmin;
+}
+
+table{
+    width: 90vw;height: 15vh;
+}
+
+.cell{
+    width: 20vw;height: 5vh;
+    text-align: center;
+    margin: 1vh 1vw;
+    border: 1px solid black;
+}
