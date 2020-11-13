@@ -2,7 +2,7 @@ import {states} from "./data.js";
 
 let makeSelect = arr =>{
     let sel = document.createElement('select');
-    sel.size = 10;
+    sel.size = 20;
     sel.multiple = true;
 
     sel.innerHTML = arr.map(item => "<option>" + item + "</option>").join("");
