@@ -1,5 +1,5 @@
 import {data} from "../Context/context.js";
-import {getResultsFetch} from "../HTTP/http-service.js";
+import {getResultsFetch, getRes} from "../HTTP/http-service.js";
 
 export let makeContent = (content,numberStar) => {
     content.innerHTML = '';
@@ -19,5 +19,5 @@ export let makeContent = (content,numberStar) => {
     };
     content.appendChild(title);
     getResultsFetch(result,data[numberStar].homeworld);
-
+    console.log(getRes(data[numberStar].homeworld));
 }

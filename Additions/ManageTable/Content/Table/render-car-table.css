@@ -1,0 +1,34 @@
+.car-table-body-wrap{
+    height: 50vh;
+    overflow-y: auto;
+    width: 50vw;
+}
+
+.car-table-headers tr:first-child{
+    border-bottom: 0.15vh solid blue;
+}
+.wrap td:nth-child(1){width: 3vw; text-align: center;}
+.wrap td:nth-child(2){width: 15vw;}
+.wrap td:nth-child(3){width: 12vw;}
+.wrap td:nth-child(4){width: 8vw;}
+.wrap td:nth-child(5){width: 6vw; text-align: center;}
+.wrap td:nth-child(6){width: 4vw; text-align: center;}
+
+
+.car-table-but-bar{
+    width: 50vw;
+    text-align: center;
+    margin: 1vh 2vw;
+}
+.car-table-but-bar button{
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    font-size: 2.5vmin;
+    color: #ccffcc;
+    padding: 1vh 2vw;
+    margin: 1vh 2vw;
+}
+
+.car-table-body-wrap tr:nth-child(odd){
+    background-color: #eee;
+}

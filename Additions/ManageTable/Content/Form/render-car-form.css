@@ -1,0 +1,29 @@
+.car-form-wrap *{
+    margin: 1vh 1vw;
+    font-size: 2vmin;
+}
+
+.car-form-wrap{
+    width: 80%;
+}
+
+.car-form-wrap label{
+    width: 45%;
+}
+.car-form-but-bar{
+    width: 50vw;
+    text-align: center;
+    margin: 1vh 2vw;
+}
+.car-form-but-bar button{
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    font-size: 2.5vmin;
+    color: #ccffcc;
+    padding: 1vh 2vw;
+    margin: 1vh 2vw;
+}
+.reg-number{
+    background-color: #ffffcc;
+}
+
