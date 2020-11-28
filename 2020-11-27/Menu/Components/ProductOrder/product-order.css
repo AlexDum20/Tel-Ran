@@ -1,0 +1,38 @@
+.order-table-headers tr:first-child{
+    border-bottom: 0.15vh solid blue;
+    margin-bottom: 2vh;
+    font-size: 1.5vmax;
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.order-table-body{
+    font-size: 1vmax;
+    margin: 1vh 0;
+}
+
+.wrap-order{
+    margin-left: 2vw;
+    box-sizing: border-box;
+}
+.order-table-footer{
+    font-size: 1.5vmax;
+    font-weight: bold;
+}
+
+.order-table-body td:nth-child(4){text-align: right}
+
+.order-table-but-bar{
+    margin: 5px 3px;
+    display: flex;
+    justify-content: flex-start;
+}
+.order-table-but-bar button:nth-child(1){background-color: greenyellow}
+.order-table-but-bar button:nth-child(2){background-color: tomato}
+
+button{
+    margin: 0 1vw;
+    border-radius: 5px;
+    font-size: 1.4vmax;
+    width: 6vw;
+}

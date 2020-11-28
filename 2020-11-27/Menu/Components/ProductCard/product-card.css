@@ -1,0 +1,46 @@
+.card{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 2vmin 2vmax;
+    box-shadow: 0 0.6vmin 1.2vmin 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 25vmax;
+    margin: 2vh;
+}
+
+.card:hover{
+    box-shadow: 0 1.2vmin 2.4vmin 0 rgba(0,0,0,0.2);
+}
+
+.card-image-wrap{
+    width: 100%;
+    height: 25vm;
+    min-height: 20vmax;
+    max-height: 25vmax;
+    overflow: hidden;
+}
+
+.card-image{
+    width: 100%;
+}
+
+.data-wrap{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.card-item{
+    width: auto;
+    margin: 0 auto;
+}
+.card-change-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.change-count{
+    width: 40%;
+}
+.card-change-wrap div:nth-child(1){text-align: left}
+.card-change-wrap div:nth-child(2){text-align: right}

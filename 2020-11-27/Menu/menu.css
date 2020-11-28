@@ -1,0 +1,7 @@
+@import "CSS-files/common.css";
+@import "CSS-files/layout.css";
+@import "Components/ProductListCategory/list-category.css";
+@import "Components/ProductCard/product-card.css";
+@import "Components/ProductCategory/product-category.css";
+@import "Components/ProductOrder/product-order.css";
+@import "CSS-files/mediaRule.css";

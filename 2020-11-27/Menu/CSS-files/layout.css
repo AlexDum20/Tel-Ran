@@ -1,0 +1,19 @@
+body{
+    margin-top: 3vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.nav-bar{
+    width: 25vw;
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    /*justify-content: flex-start;*/
+}
+
+.category-panel{
+    width: 70vw;
+    height: 100vh;
+}
