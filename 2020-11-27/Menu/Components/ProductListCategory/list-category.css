@@ -5,10 +5,8 @@
     margin: 3vh 2vh;
     display: flex;
     box-sizing: border-box;
-    /*width: 100%;height: 20%;*/
     flex-direction: column;
     justify-content: space-around;
-    /*font-size: 2vmax;*/
     font-style: italic;
 }
 
