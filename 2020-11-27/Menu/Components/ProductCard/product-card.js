@@ -29,7 +29,8 @@ export const productCard = (product) => {
     `;
     card.querySelector('.card-change-wrap').addEventListener('click', (e) => {
         const target = e.composedPath()
-            .filter(item => item.className == 'card')[0].lastElementChild;
+            .filter(item => item.className == 'card')[0]
+            .lastElementChild;
         const currentProduct = productListOrder.find(item => item.name === target.children[0].innerText);
         currentProduct ? (e.target.innerText === '+' ? currentProduct.count += 1 :
             (currentProduct.count === 1 ? arrRemove(productListOrder, currentProduct) :

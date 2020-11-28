@@ -1,9 +1,9 @@
 
 export const soups = [{
-    name : 'Borzhch',
-    price: 12.30,
-    imgSrc: './Images/Soups/borzhch.jpg'
-},
+        name : 'Borzhch',
+        price: 12.30,
+        imgSrc: './Images/Soups/borzhch.jpg'
+    },
     {
         name : 'Shchee',
         price: 10.30,
@@ -22,7 +22,7 @@ export const soups = [{
 ];
 
 export const desserts = [{
-    name : 'Coffee',
+    name: 'Coffee',
     price: 12.30,
     imgSrc: './Images/Desserts/coffee.jpg'
 },
@@ -44,10 +44,10 @@ export const desserts = [{
 ];
 
 export const meals = [{
-    name : 'Kasha',
-    price: 12.30,
-    imgSrc: './Images/Meals/kasha.jpg'
-},
+        name : 'Kasha',
+        price: 12.30,
+        imgSrc: './Images/Meals/kasha.jpg'
+    },
     {
         name : 'Pasta',
         price: 10.30,
@@ -66,10 +66,10 @@ export const meals = [{
 ];
 
 export const salads = [{
-    name : 'Cesar',
-    price: 12.30,
-    imgSrc: './Images/Salads/cesar.jpg'
-},
+        name : 'Cesar',
+        price: 12.30,
+        imgSrc: './Images/Salads/cesar.jpg'
+    },
     {
         name : 'Green',
         price: 10.30,

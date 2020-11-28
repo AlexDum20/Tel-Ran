@@ -31,7 +31,7 @@
     }
 }
 @media (max-height: 800px) {
-    body{
-        overflow-y: auto;
-    }
+    /*body{*/
+    /*    overflow-y: auto;*/
+    /*}*/
 }
