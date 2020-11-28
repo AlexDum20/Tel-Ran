@@ -1,0 +1,21 @@
+*{margin: 0; font-family: Verdana; font-size: 5vh}
+body{width: 100vw; height: 100vh}
+
+.sq{
+    width: 15vh; height: 15vh;
+    box-sizing: border-box;
+    text-align: center; line-height: 15vh;
+    border: 0.15vh solid black;
+
+    margin: 2vh 2vh;
+}
+
+.container{
+    width: 100vw; height: 100vh;
+    display: flex;
+    /*flex-direction: column-reverse;*/
+    /*flex-wrap: wrap;*/
+    /*justify-content: flex-start;*/
+    align-items: center;
+    align-content: flex-start;
+}
